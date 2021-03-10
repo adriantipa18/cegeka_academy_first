@@ -1,0 +1,16 @@
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\bin\Debug\net5.0\first_homework.exe
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\bin\Debug\net5.0\first_homework.deps.json
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\bin\Debug\net5.0\first_homework.runtimeconfig.json
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\bin\Debug\net5.0\first_homework.runtimeconfig.dev.json
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\bin\Debug\net5.0\first_homework.dll
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\bin\Debug\net5.0\ref\first_homework.dll
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\bin\Debug\net5.0\first_homework.pdb
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.csprojAssemblyReference.cache
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.AssemblyInfoInputs.cache
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.AssemblyInfo.cs
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.dll
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\ref\first_homework.dll
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.pdb
+C:\Users\Adrian\Desktop\cegeka_first_homework\first_homework\first_homework\obj\Debug\net5.0\first_homework.genruntimeconfig.cache
