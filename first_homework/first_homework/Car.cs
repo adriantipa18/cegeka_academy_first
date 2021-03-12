@@ -12,6 +12,10 @@ namespace first_homework
         private string model { get; set; }
         private Package package { get; set; }
         
+        public Car()
+        {
+
+        }
         public Car(string brand, string model, Package package)
         {
             this.brand = brand;
