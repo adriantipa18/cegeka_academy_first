@@ -38,5 +38,10 @@ namespace first_homework
             return sb.ToString();
         }
 
+        public string getModel()
+        {
+            return this.model;
+        }
+
 }
 }

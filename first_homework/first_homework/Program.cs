@@ -22,12 +22,26 @@ namespace first_homework
             }
         }
 
+
+        static void getCar(string model)
+        {
+            foreach ( Car car in manufacteredCars)
+            {
+                if (model.Equals(car.getModel()))
+                {
+                    Console.WriteLine('\n');
+                    Console.WriteLine(car.getInfo());
+                    break;
+                }
+            }
+        }
+
         static void menu()
         {
 
             Console.WriteLine("Welcome!");
             Console.WriteLine("You can create a car (command : createcar ), see number of cars ( command: carcount ) ");
-            Console.WriteLine("or list all the cars manufactered ( command : getallcars )!");
+            Console.WriteLine("list details of a certain model (getcar) or list all the cars manufactered ( command : getallcars )!");
             Console.Write("Choose a comand:");
             while (true)
             {
@@ -48,13 +62,21 @@ namespace first_homework
                 else
                 if (input.ToLower().Equals("carcount"))
                 {
-                    getNumberOfCars();
+                    Console.Write("Total numbers of cars manufactered so far: ");
+                    Console.WriteLine(getNumberOfCars().ToString());
                 }
                 else
                     if (input.ToLower().Equals("getallcars"))
                 {
                     printCars();
                 }
+                else
+                if(input.ToLower().Equals("getcar"))
+                {
+                    string tempModel;
+                    tempModel = Console.ReadLine();
+                    getCar(tempModel);
+                }else
                 if (input.Equals("exit"))
                 {
                     break;
@@ -68,22 +90,17 @@ namespace first_homework
             Package plus = new Package("Plus", 2.2, 160, "Automatic", false, true, true);
             Package basic  = new Package("Basic", 2.2, 160, "Automatic", false, true, false);
             Package modest = new Package("Normal", 2.2, 160, "Automatic", false, true, false);
-            //Console.WriteLine(premium.getInfo());
 
 
             Car car1 = new Car("Tesla", "ModelX", premium);
             Car car2 = new Car("Dacia", "Duster", basic);
             Car car3 = new Car("Honda", "Civic", plus);
-            //Console.WriteLine(car1.getInfo());
 
             manufacteredCars.Add(car1);
             manufacteredCars.Add(car2);
             manufacteredCars.Add(car3);
 
             menu();
-
-            //Package temp = new Package();
-            //temp.createCustom();
         }
     }
 }
