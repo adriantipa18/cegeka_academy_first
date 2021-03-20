@@ -7,10 +7,10 @@ namespace GenericsExercise.Console
 {
     class Menu
     {
-        private ApplicationService<Student> studService = new ApplicationService<Student>();
-        private ApplicationService<University> uniService = new ApplicationService<University>();
+        private ApplicationService<Student> _studService = new ApplicationService<Student>();
+        private ApplicationService<University> _uniService = new ApplicationService<University>();
 
-        public void mainMenu()
+        public void MainMenu()
         {
             System.Console.WriteLine("Welcome!\n" + "In order to see students/university write command: getAllStudents/getAllUniversities!\n" + "In order to add a new student/university write command: addStudent/addUniversity");
             System.Console.Write("command = ");
@@ -19,13 +19,13 @@ namespace GenericsExercise.Console
             {
                 if (input.ToLower().Equals("getallstudents"))
                 {
-                    System.Console.WriteLine(studService.getUsers());
+                    System.Console.WriteLine(_studService.GetUsers());
                 }
                 else
                 {
                     if (input.ToLower().Equals("getalluniversities"))
                     {
-                        System.Console.WriteLine(uniService.getUsers());
+                        System.Console.WriteLine(_uniService.GetUsers());
                     }
                     else
                     {
@@ -40,7 +40,7 @@ namespace GenericsExercise.Console
                             lastName = System.Console.ReadLine();
                             Student tempStudent = new Student() { Id = id, FisrtName = firstName, LastName = lastName};
 
-                            System.Console.WriteLine(studService.insertUser(tempStudent));
+                            System.Console.WriteLine(_studService.InsertUser(tempStudent));
                         }
                         else
                         {
@@ -55,7 +55,7 @@ namespace GenericsExercise.Console
                                 name = System.Console.ReadLine();
                                 University tempUniversity = new University() { Id = id, Address = adress, Name = name };
 
-                                System.Console.WriteLine(uniService.insertUser(tempUniversity));
+                                System.Console.WriteLine(_uniService.InsertUser(tempUniversity));
                             }
                             else
                             {

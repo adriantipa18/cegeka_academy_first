@@ -14,7 +14,7 @@ namespace GenericsExercise.Console.Given.Services
             conn = new Persistence();
         }
 
-        public string getUsers()
+        public string GetUsers()
         {
             try
             {
@@ -32,7 +32,7 @@ namespace GenericsExercise.Console.Given.Services
             }
         }
 
-        public string insertUser(T user)
+        public string InsertUser(T user)
         {
             try
             {

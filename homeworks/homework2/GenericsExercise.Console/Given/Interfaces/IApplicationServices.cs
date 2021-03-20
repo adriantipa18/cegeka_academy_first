@@ -6,7 +6,7 @@ namespace GenericsExercise.Console.Given.Interfaces
 {
     interface IApplicationServices<T> where T : IEntity
     {
-        string getUsers();
-        string insertUser(T user);
+        string GetUsers();
+        string InsertUser(T user);
     }
 }

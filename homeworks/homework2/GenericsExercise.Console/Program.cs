@@ -8,7 +8,7 @@ namespace GenericsExercise.Console
         static void Main(string[] args)
         {
             Menu menu = new Menu();
-            menu.mainMenu();
+            menu.MainMenu();
 
         }
     }
