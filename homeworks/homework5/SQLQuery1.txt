@@ -1,0 +1,73 @@
+INSERT INTO Car( id, model, brand, transmission, hasAmbientalLights, hasElectricWindows)
+VALUES (1, 'modelX', 'Tesla', 'electric', 1, 1, '2000-03-21T18:10:00');
+
+INSERT INTO Car( id, model, brand, transmission, hasAmbientalLights, hasElectricWindows)
+VALUES (2, 'A4', 'Audi', 'automatic', 1, 1, '2000-03-21T18:10:00');
+
+INSERT INTO Car( id, model, brand, transmission, hasAmbientalLights, hasElectricWindows)
+VALUES (3, 'Discovery', 'Land Rover', 'automatic', 1, 1, '2000-03-21T18:10:00');
+
+INSERT INTO Car( id, model, brand, transmission, hasAmbientalLights, hasElectricWindows)
+VALUES (4, 'duster', 'Dacia', 'automatic', 1, 1, '2000-03-21T18:10:00');
+
+INSERT INTO Car( id, model, brand, transmission, hasAmbientalLights, hasElectricWindows)
+VALUES (5, 'Golf5', 'Volswagen', 'manual', 0, 1, '2000-03-21T18:10:00');
+
+INSERT INTO Car( id, model, brand, transmission, hasAmbientalLights, hasElectricWindows)
+VALUES (6, 'sandero', 'Dacia', 'automatic', 0, 0, '2000-03-21T18:10:00');
+
+INSERT INTO Inventory( id, id_car)
+VALUES (1, 1);
+
+INSERT INTO Inventory( id, id_car)
+VALUES (2, 2);
+
+INSERT INTO Inventory( id, id_car)
+VALUES (3, 3);
+
+INSERT INTO Inventory( id, id_car)
+VALUES (4, 4);
+
+INSERT INTO Inventory( id, id_car)
+VALUES (5, 5);
+
+INSERT INTO Inventory( id, id_car)
+VALUES (6, 2);
+
+INSERT INTO Inventory( id, id_car)
+VALUES (7, 4);
+
+INSERT INTO Customer( id, id_car, firstName, lastBuyDate)
+VALUES (1, 1, 'Adi', '2021-03-21T18:10:00');
+
+INSERT INTO Customer( id, id_car, firstName, lastBuyDate)
+VALUES (2, 1, 'Andrei',  '2021-03-21T18:10:00');
+
+INSERT INTO Customer( id, id_car, firstName, lastBuyDate)
+VALUES (3, 2, 'Cata',  '2021-03-21T18:10:00');
+
+INSERT INTO Customer( id, id_car, firstName, lastBuyDate)
+VALUES (4, 5, 'Rares',  '2021-03-21T18:10:00');
+
+INSERT INTO Customer( id, id_car, firstName, lastBuyDate)
+VALUES (5, 4, 'Ester',  '2021-03-21T18:10:00');
+
+INSERT INTO Customer( id, id_car, firstName, lastBuyDate)
+VALUES (6, 2, 'Ion',  '2021-03-21T18:10:00');
+
+INSERT INTO Customer( id, id_car, firstName, lastBuyDate)
+VALUES (1, 1, 'Adi', '2021-03-21T18:10:00');
+
+INSERT INTO Interested_Customer( id, id_car, firstName, isInterested, didBuy, lastUpdated)
+VALUES (1, 1, 'Adi', 1, 0, '2021-03-21T18:10:00');
+
+INSERT INTO Interested_Customer( id, id_car, firstName, isInterested, didBuy, lastUpdated)
+VALUES (2, 3, 'Andrei', 1, 0, '2021-03-21T18:10:00');
+
+Select * from Car;
+
+Select * from Customer;
+
+Select * from Interested_Customer;
+
+Select * from Inventory;

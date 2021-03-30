@@ -1,0 +1,21 @@
+SELECT * from Inventory INNER Join Car on Inventory.id_car = Car.id;
+
+
+Select * from Inventory INNER JOIN Car on Inventory.id_car = Car.id where Car.model = 'duster';
+  
+Select * from Car where model = 'duster'
+
+SELECT * 
+FROM Customer
+WHERE DATEPART(m, lastBuyDate) = DATEPART(m, DATEADD(m, -1, getdate()))
+AND DATEPART(yy, lastBuyDate) = DATEPART(yy, DATEADD(m, -1, getdate()))
+
+SELECT * 
+FROM Interested_Customer
+WHERE DATEPART(m, lastUpdated) = DATEPART(m, DATEADD(m, -1, getdate()))
+AND DATEPART(yy, lastUpdated) = DATEPART(yy, DATEADD(m, -1, getdate())) AND isInterested = 1 AND didBuy = 0 OR didBuy IS NULL 
+
+Select * from car where YEAR(fabricationYear) = '2000'
+
+Select * from car where price > 100 and price < 10000
+
