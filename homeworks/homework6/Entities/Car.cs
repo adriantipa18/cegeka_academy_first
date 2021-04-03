@@ -1,12 +1,12 @@
-﻿using System;
+﻿using ConsoleApp2.Interfaces;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace homework6.Models
 {
-    public class Car
+    public class Car : IEntity
     {
-        [Required]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         [Required]
         public string Brand { get; set; }
         [Required]
@@ -18,6 +18,6 @@ namespace homework6.Models
         public int HorsePower { get; set; }
         public bool HasElectricWindows { get; set; }
         public bool HasNavigation { get; set; }
-        
+
     }
 }

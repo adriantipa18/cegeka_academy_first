@@ -1,15 +1,16 @@
 ﻿using homework6.Models;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
-namespace homework6
+namespace ConsoleApp2.Database
 {
-    public class CarDealership: DbContext
-    {
+    class CarDealershipContext: DbContext
+    { 
+
         public DbSet<Car> CarContext { get; set; }
         public DbSet<Customer> CustomerContext { get; set; }
 
         public DbSet<Customers> CustomersContext { get; set; }
         public DbSet<Inventory> InventoryContext { get; set; }
-
+        
     }
 }
