@@ -1,9 +1,9 @@
 import React from 'react';
 import {Switch, Route} from 'react-router';
 import * as api from '../../api';
-import {AlbumList} from '../Album';
-import {PhotoList} from '../Photo';
-import Login from '../Login';
+import {AlbumList} from '../Album/index';
+import {PhotoList} from '../Photo/index';
+import Login from '../Login/Login';
 import {Message} from 'semantic-ui-react';
 
 class Main extends React.Component{
