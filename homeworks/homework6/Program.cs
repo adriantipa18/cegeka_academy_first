@@ -9,10 +9,11 @@ namespace ConsoleApp2
 {
     class Program
     {
-        private static readonly CarDealershipContext context = new CarDealershipContext();
+        private static CarDealershipContext context;
 
         public Program()
         {
+            context = new CarDealershipContext();
         }
 
         static void Main(string[] args)
