@@ -1,0 +1,20 @@
+1) Web Page Stock Market/Crypto Personal Investment Follower. 
+	- a webpage with the purpose of tracking your personal investment in the stock market or crypto, provided with good and clear analysis on your gains or losses.
+	- it should follow these topics and calculate based on the current prices and the input provided by the user (investment numbers).
+
+2) Web page for startup businesses
+	- webpage with the purpose of displaying startup environment and services, as well as a description for employees and/or future clients.
+	- the purpose behind this web application is to present startups firms in order for people with experience or even people with imagination to give them some advice for improvement, or ideas to implement, as well as the opportunity to reach for new clients/employees.
+
+3) Online Catalog (simpler ideea)
+	- student managment system
+	- provided by schools to students/parents
+	- As requirements:
+		-should track absences, tardies, excuses
+		-generate reports on students
+		-track student grades, assignements
+		-manage a great deal pf students (from a single group to milions)
+		-respect privacy
+	Users: Faculty (rofessor, secretary)
+		Staff (administration)
+		Student Parents (as a choice, the student can also receive an account that allows him only to see his situation) 
