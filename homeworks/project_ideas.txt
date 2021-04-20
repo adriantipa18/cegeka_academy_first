@@ -13,8 +13,8 @@
 		-should track absences, tardies, excuses
 		-generate reports on students
 		-track student grades, assignements
-		-manage a great deal pf students (from a single group to milions)
+		-manage a great deal of students (from a single group to milions)
 		-respect privacy
-	Users: Faculty (rofessor, secretary)
+	Users: Faculty (professor, secretary)
 		Staff (administration)
 		Student Parents (as a choice, the student can also receive an account that allows him only to see his situation) 
